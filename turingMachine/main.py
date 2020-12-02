@@ -1,19 +1,17 @@
-file_in = open('input.txt', 'r')
+def setTape(arq):
+    linhas = arq.readlines()[0].split(' ')
+    num1 = ['']
+    num2 = ['']
+    for i in linhas[0]:
+        num1.append(str(i))
+    for i in linhas[1]:
+        num2.append(str(i))
+    num1.append('')
+    num2.append('')
+    arq.close()
+    return num1, num2
 
-conteudo = file_in.readline()
 
-inputs = conteudo.split()
-entrada1 = inputs[0]
-entrada2 = inputs[1]
+arq_input = open('input.txt', 'r')
+tape1, tape2 = setTape(arq_input)
 
-# processos
-
-file_in.close()
-
-saida = ['1010']
-
-file_out = open('output.txt', 'w')
-
-file_out.writelines(saida)
-
-file_out.close()
