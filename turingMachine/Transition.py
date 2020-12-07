@@ -12,3 +12,7 @@ class Transition:
         self.write_tape3 = transition[9]
         self.move_tape3 = transition[10]
 
+    def text(self):
+        print(self.q_from, self.read_tape1, self.read_tape2, self.read_tape3, self.q_next, self.write_tape1,
+              self.move_tape1, self.write_tape2, self.move_tape2, self.write_tape3, self.move_tape3)
+

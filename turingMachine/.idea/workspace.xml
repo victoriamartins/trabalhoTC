@@ -22,7 +22,11 @@
     <list default="true" id="2bf67182-fb2b-4901-9f09-1cbc37d10112" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../abordagem2.jff" beforeDir="false" afterPath="$PROJECT_DIR$/../abordagem2.jff" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Transition.py" beforeDir="false" afterPath="$PROJECT_DIR$/Transition.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/turing_machine.txt" beforeDir="false" afterPath="$PROJECT_DIR$/turing_machine.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,45 +110,45 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="454" y="186" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.768@0.0.1366.768" timestamp="1606932021578" />
-    <state width="1345" height="238" key="GridCell.Tab.0.bottom" timestamp="1607048315229">
+    <state width="1345" height="350" key="GridCell.Tab.0.bottom" timestamp="1607301842647">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="238" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1607048315229" />
-    <state width="1345" height="238" key="GridCell.Tab.0.center" timestamp="1607048315229">
+    <state width="1345" height="350" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1607301842647" />
+    <state width="1345" height="350" key="GridCell.Tab.0.center" timestamp="1607301842647">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="238" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1607048315229" />
-    <state width="1345" height="238" key="GridCell.Tab.0.left" timestamp="1607048315229">
+    <state width="1345" height="350" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1607301842647" />
+    <state width="1345" height="350" key="GridCell.Tab.0.left" timestamp="1607301842647">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="238" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1607048315229" />
-    <state width="1345" height="238" key="GridCell.Tab.0.right" timestamp="1607048315229">
+    <state width="1345" height="350" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1607301842647" />
+    <state width="1345" height="350" key="GridCell.Tab.0.right" timestamp="1607301842647">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="238" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1607048315229" />
-    <state width="1345" height="238" key="GridCell.Tab.1.bottom" timestamp="1607048315229">
+    <state width="1345" height="350" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1607301842647" />
+    <state width="1345" height="350" key="GridCell.Tab.1.bottom" timestamp="1607301842647">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="238" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1607048315229" />
-    <state width="1345" height="238" key="GridCell.Tab.1.center" timestamp="1607048315229">
+    <state width="1345" height="350" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1607301842647" />
+    <state width="1345" height="350" key="GridCell.Tab.1.center" timestamp="1607301842647">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="238" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1607048315229" />
-    <state width="1345" height="238" key="GridCell.Tab.1.left" timestamp="1607048315229">
+    <state width="1345" height="350" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1607301842647" />
+    <state width="1345" height="350" key="GridCell.Tab.1.left" timestamp="1607301842647">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="238" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1607048315229" />
-    <state width="1345" height="238" key="GridCell.Tab.1.right" timestamp="1607048315229">
+    <state width="1345" height="350" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1607301842647" />
+    <state width="1345" height="350" key="GridCell.Tab.1.right" timestamp="1607301842647">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="238" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1607048315229" />
+    <state width="1345" height="350" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1607301842647" />
     <state x="184" y="29" key="SettingsEditor" timestamp="1606932104533">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="184" y="29" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1606932104533" />
-    <state width="691" height="392" key="XDebugger.FullValuePopup" timestamp="1607050049664">
+    <state width="691" height="392" key="XDebugger.FullValuePopup" timestamp="1607297357299">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="691" height="392" key="XDebugger.FullValuePopup/0.0.1366.768@0.0.1366.768" timestamp="1607050049664" />
+    <state width="691" height="392" key="XDebugger.FullValuePopup/0.0.1366.768@0.0.1366.768" timestamp="1607297357299" />
   </component>
 </project>
