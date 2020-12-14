@@ -5,14 +5,14 @@ from collections import Counter
 
 def set_tape(arq):
     lines = arq.readlines()
-    if '#' in lines[0]:
+    if '#' in lines[0] and '0' in lines[0] and '1' in lines[0]:
         lines = lines[0].split('#')
         num1 = [' ']
         num2 = [' ']
-        for i in lines[0]:
-            num1.append(str(i))
-        for i in lines[1]:
-            num2.append(str(i))
+        for b in lines[0]:
+            num1.append(str(b))
+        for b in lines[1]:
+            num2.append(str(b))
         num1.append(' ')
         num2.append(' ')
         return num1, num2
@@ -31,8 +31,8 @@ def read_split_transitions(tm_lines):
 
 def organize_transitions(splited_data):
     local_set = []
-    for i in splited_data:
-        local_set.append(Transition(i))
+    for s in splited_data:
+        local_set.append(Transition(s))
     return local_set
 
 
@@ -77,6 +77,7 @@ splited_transitions = read_split_transitions(content)
 transitions = organize_transitions(splited_transitions)
 
 tape3 = [' ']
+flag_accepted = False
 out = []
 
 index_tape1 = 1
@@ -86,11 +87,11 @@ index_tape3 = 0
 while True:
     res = search_transition(current_state, tape1[index_tape1], tape2[index_tape2], tape3[index_tape3], transitions)
     if not res:
-        arq_output.write('Entrada rejeitada!')
+        arq_output.write('Input rejected!')
         break
     else:
         if res.q_next == 'q6':
-            print('Ocorrencia normal, fim!')
+            flag_accepted = True
             break
         else:
             tape1[index_tape1] = res.write_tape1
@@ -103,9 +104,12 @@ while True:
                 out.append(write_out([res.read_tape1, res.read_tape2, res.read_tape3]))
             current_state = res.q_next
 
-out = out[::-1]
-for i in out:
-    arq_output.write(i)
+if flag_accepted:
+    out = out[::-1]
+    for i in out:
+        arq_output.write(i)
+else:
+    arq_output.write("Input rejected!")
 
 arq_input.close()
 arq_machine.close()
