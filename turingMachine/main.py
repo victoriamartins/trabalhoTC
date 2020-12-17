@@ -90,7 +90,7 @@ while True:
         arq_output.write('Input rejected!')
         break
     else:
-        if res.q_next == 'q6':
+        if res.q_next == final_states:
             flag_accepted = True
             break
         else:
